@@ -20,7 +20,7 @@ public class ej24 {
 				if (equipos[x].equals(local))
 					i=x;
 			for (int x=0;x<equipos.length;x++) 
-				if (equipos[x].equals(local))
+				if (equipos[x].equals(visitante))
 					j=x;
 			int fin = puntos_local - puntos_visitante;
 			if (fin>0)
